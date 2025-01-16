@@ -55,6 +55,6 @@ df = df[df['korean_ratio'] > 0.05]
 df.drop(columns='korean_ratio', inplace=True)
 
 # 정제된 데이터를 새로운 엑셀 파일로 저장
-df.to_excel('data/2.정제/일반_정제3.xlsx', index=False)
+df.to_excel('data/2.정제/일반_정제.xlsx', index=False)
 
 
